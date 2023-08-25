@@ -1,21 +1,23 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
+import ExerciseListItem from "./src/components/ExerciseListItem";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <Text>Open up App.tsx to start working on your app!</Text>
+    <View style={styles.mainContainer}>
+      <ExerciseListItem />
       <StatusBar style="auto" />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  mainContainer: {
     flex: 1,
     backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
+    paddingVertical: 50,
+    paddingHorizontal: 15,
+    // alignItems: "center",
+    // justifyContent: "center",
   },
 });
