@@ -4,6 +4,7 @@ export const themeColors = {
   black: "#111",
   white: "#fff",
   grey: "#888",
+  lightSeaGreen: "#2EC4B6",
 };
 
 export const TitleDark = styled.Text`
