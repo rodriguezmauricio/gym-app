@@ -3,11 +3,13 @@ import { StyleSheet, Text, View } from "react-native";
 import ExerciseListItem from "./src/components/exerciseListItem/ExerciseListItem";
 import WorkoutCover from "./src/components/workoutCover/WorkoutCover";
 import AddWorkout from "./src/components/AddWorkout/AddWorkout";
+import InputsExercises from "./src/components/Screens/InputsExercices/InputsExercises";
 
 export default function App() {
   return (
     <View style={styles.mainContainer}>
       <AddWorkout />
+      <InputsExercises />
       <StatusBar style="auto" />
       <WorkoutCover />
       <ExerciseListItem />
